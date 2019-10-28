@@ -8,7 +8,9 @@ BC5 compression/conversion tool.
  
 ## Usage
 ### Compression
-This tool can convert PNG, GIF, and JPG data to a raw BC5 encoded block file. It uses the **go-bc5** library found here: https://github.com/leylandski/go-bc5 to do so. As per that implementation, it writes a 12-byte header to the start of the stream containing the DWORD/uint32 value "BC5 " in Big Endian order and two subsequent uint32 values denoting the width and height respectively, followed by the block data.
+This tool can convert PNG, GIF, and JPG data to a raw BC5 encoded block file. 
+
+It uses the **go-bc5** library found here: https://github.com/leylandski/go-bc5 to do so. As per that implementation, it writes a 12-byte header to the start of the stream containing the DWORD/uint32 value "BC5 " in Big Endian order and two subsequent uint32 values denoting the width and height respectively, followed by the block data.
  
 The output files are given the extension .bc5.
  
