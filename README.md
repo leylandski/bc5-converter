@@ -1,5 +1,5 @@
 # bc5-converter
-BC5 compression/conversion tool.
+BC5 compression/conversion tool. See the library this tool uses for more details on the implementation: https://github.com/leylandski/go-bc5
  
 ## Installation
 1. Have Go (golang) installed. This was developed with `1.11.5`, but earlier versions may work just as well. Use at your own risk.
